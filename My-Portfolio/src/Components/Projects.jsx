@@ -5,8 +5,12 @@ export function Projects({projectObject}){
             {projectObject.map((element,j)=> {
                 return (
                 <section key={j} className="cards">
-                    <h2>{element.name}</h2>
-                    <img src="" alt="" />
+                    <div className="cont_img_projects">
+                        <b className="etiqueta-project">{element.type}</b>
+                        <img src={element.img} alt="" className="img-cards"/>
+                    </div>
+                    <h3>{element.name}</h3>
+                    <br />
                     <p>{element.description}</p>
                 </section>)
             })}

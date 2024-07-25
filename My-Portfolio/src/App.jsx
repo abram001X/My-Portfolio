@@ -1,67 +1,79 @@
 /* eslint-disable no-useless-escape */
 
+import { useEffect, useState } from 'react'
 import './App.css'
 import { Projects } from './Components/Projects'
 import { Tecnologias } from './Components/Tecnologias'
+import result from "./json/tecnologia.json";
 export function App() {
-  const projectObject = [{
-    name : 'Book-Gallery',
-    img : null,
-    description : '!Descubre una amplia variedad de libros en Book-Gallery, donde podrás explorar la información detallada de cada título¡ Desde novelas clásicas hasta los últimos lanzamientos.'
-  },{
-    name : 'ConvertVideo',
-    img : null,
-    description : 'ConvertMoon es una página web que te permite convertir videos de YouTube para que puedas descargarlos en tu dispositivo.'
-  },{
-    name : 'SportMoon',
-    img : null,
-    description : 'SportMoon es una página de fútbol, dedicado exclusivamente a todo lo relacionado con este deporte.'
-  }
-]
-
+  const projectObject = result.project;
+  console.log(projectObject);
   const iconObject = [
     {
       name : 'JavaScript',
-      svg : 'img\file_type_js_official_icon_130509.svg'
+      svg : 'svg/file_type_js_official_icon_130509.svg',
+      type: 'Frontend'
     },{
       name : 'Css',
-      svg : 'img\file_type_css_icon_130661.svg'
+      svg : 'svg/file_type_css_icon_130661.svg',
+      type: 'Frontend'
+      
     },{
       name : 'HTML',
-      svg : 'img\file_type_html_icon_130541.svg'
+      svg : 'svg/file_type_html_icon_130541.svg',
+      type: 'Frontend'
     },{
       name: 'Python',
-      svg : 'img\file_type_python_icon_130221.svg'
+      svg : 'svg/file_type_python_icon_130221.svg',
+      type: 'Backend'
     },{
       name: 'React',
-      svg : 'img\react_original_logo_icon_146374.svg'
+      svg : 'svg/react_original_logo_icon_146374.svg',
+      type: 'Frontend'
     },{
       name: 'Git',
-      svg : 'img\file_type_git_icon_130581.svg'
+      svg : 'svg/file_type_git_icon_130581.svg',
+      type: 'Herramientas'
     },{
       name: 'GitHub',
-      svg : 'img\github_git_icon_145985.svg'
+      svg : 'svg/github_git_icon_145985.svg',
+      type: 'Herramientas'
     },{
       name: 'NodeJs',
-      svg : 'img\file_type_node_icon_130301.svg'
+      svg : 'svg/file_type_node_icon_130301.svg',
+      type: 'Backend'
     },{
-      name: 'Visual Studio Code',
-      svg : 'img\file_type_vscode_icon_130084.svg'
+      name: 'VSC',
+      svg : 'svg/file_type_vscode_icon_130084.svg',
+      type: 'Herramientas'
     },{
       name: 'Vite',
-      svg : 'img\vite_logo_icon_249258.svg'
+      svg : 'svg/vite_logo_icon_249258.svg',
+      type: 'Herramientas'
     },{
       name: 'React Native',
-      svg : 'img\react_icon_212902.svg'
+      svg : 'svg/react_icon_212902.svg',
+      type: 'Aprendiendo'
     },{
       name: 'AstroJs',
-      svg : 'img\astro_logo_icon_247543.svg'
+      svg : 'svg/astro_logo_icon_247543.svg',
+      type: 'Aprendiendo'
     },{
       name: 'MySql',
-      svg : 'img\mysql_original_wordmark_logo_icon_146417.svg'
+      svg : 'svg/mysql_original_wordmark_logo_icon_146417.svg',
+      type: 'Aprendiendo'
     },{
       name: 'Flask',
-      svg: 'img\pocoo_flask_logo_icon_168045.svg'
+      svg: 'svg/pocoo_flask_logo_icon_168045.svg',
+      type: 'Backend'
+    },{
+      name: 'Npm',
+      svg: 'svg/npm_original_wordmark_logo_icon_146402.svg',
+      type: 'Herramientas'
+    },{
+      name: 'Tailwind',
+      svg: 'svg/file_type_tailwind_icon_130128.svg',
+      type: 'Aprendiendo'
     }
 
   ]
