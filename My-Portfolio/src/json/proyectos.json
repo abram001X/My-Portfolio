@@ -1,0 +1,84 @@
+{
+  "iconos": [
+    {
+      "name": "JavaScript",
+      "svg": "svg/file_type_js_official_icon_130509.svg",
+      "type": "Frontend"
+    },
+    {
+      "name": "Css",
+      "svg": "svg/file_type_css_icon_130661.svg",
+      "type": "Frontend"
+    },
+    {
+      "name": "HTML",
+      "svg": "svg/file_type_html_icon_130541.svg",
+      "type": "Frontend"
+    },
+    {
+      "name": "Python",
+      "svg": "svg/file_type_python_icon_130221.svg",
+      "type": "Backend"
+    },
+    {
+      "name": "React",
+      "svg": "svg/react_original_logo_icon_146374.svg",
+      "type": "Frontend"
+    },
+    {
+      "name": "Git",
+      "svg": "svg/file_type_git_icon_130581.svg",
+      "type": "Herramientas"
+    },
+    {
+      "name": "GitHub",
+      "svg": "svg/github_git_icon_145985.svg",
+      "type": "Herramientas"
+    },
+    {
+      "name": "NodeJs",
+      "svg": "svg/file_type_node_icon_130301.svg",
+      "type": "Backend"
+    },
+    {
+      "name": "VSC",
+      "svg": "svg/file_type_vscode_icon_130084.svg",
+      "type": "Herramientas"
+    },
+    {
+      "name": "Vite",
+      "svg": "svg/vite_logo_icon_249258.svg",
+      "type": "Herramientas"
+    },
+    {
+      "name": "React Native",
+      "svg": "svg/react_icon_212902.svg",
+      "type": "Aprendiendo"
+    },
+    {
+      "name": "AstroJs",
+      "svg": "svg/astro_logo_icon_247543.svg",
+      "type": "Aprendiendo"
+    },
+    {
+      "name": "MySql",
+      "svg": "svg/mysql_original_wordmark_logo_icon_146417.svg",
+      "type": "Aprendiendo"
+    },
+    {
+      "name": "Flask",
+      "svg": "svg/pocoo_flask_logo_icon_168045.svg",
+      "type": "Backend"
+    },
+    {
+      "name": "Npm",
+      "svg": "svg/npm_original_wordmark_logo_icon_146402.svg",
+      "type": "Herramientas"
+    },
+    {
+      "name": "Tailwind",
+      "svg": "svg/file_type_tailwind_icon_130128.svg",
+      "type": "Aprendiendo"
+    }
+  ]
+}

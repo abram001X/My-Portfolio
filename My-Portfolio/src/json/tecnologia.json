@@ -4,19 +4,22 @@
       "name": "Book-Gallery",
       "img": null,
       "type": "Frontend",
-      "description": "!Descubre una amplia variedad de libros en Book-Gallery, donde podrás explorar la información detallada de cada título¡ Desde novelas clásicas hasta los últimos lanzamientos."
+      "description": "!Descubre una amplia variedad de libros en Book-Gallery, donde podrás explorar la información detallada de cada título¡",
+      "tecnologia": ["React", "NodeJs", "ExpressJs","JavaScript"]
     },
     {
       "name": "ConvertMoon",
       "type": "Fullstack",
       "img": "img/convertmoon.png",
-      "description": "ConvertMoon es una página web que te permite convertir videos de YouTube para que puedas descargarlos en tu dispositivo."
+      "description": "ConvertMoon es una página web que te permite convertir videos de YouTube para que puedas descargarlos.",
+      "tecnologia": ["Python", "Flask", "HTML","Css"]
     },
     {
       "name": "SportMoon",
       "type": "Fullstack",
       "img": "img/Opera Instantánea_2024-07-24_150415_localhost.png",
-      "description": "SportMoon es una página de fútbol, dedicado exclusivamente a todo lo relacionado con este deporte."
+      "description": "SportMoon es una página de fútbol, dedicado exclusivamente a todo lo relacionado con este deporte.",
+      "tecnologia": ["React", "NodeJs", "ExpressJs","JavaScript"]
     }
   ]
 }
