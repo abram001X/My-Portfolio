@@ -17,7 +17,7 @@
     {
       "name": "SportMoon",
       "type": "Fullstack",
-      "img": "img/Opera Instantánea_2024-07-24_150415_localhost.png",
+      "img": "img/Opera Instantánea_2024-07-24_150429_localhost.png",
       "description": "SportMoon es una página de fútbol, dedicado exclusivamente a todo lo relacionado con este deporte.",
       "tecnologia": ["React", "NodeJs", "ExpressJs","JavaScript"]
     }

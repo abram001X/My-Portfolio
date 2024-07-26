@@ -6,7 +6,7 @@ export function Tecnologias({ iconObject }) {
       {
         <>
           <section className="cont_child-grid">
-          <h2 className="h2-center">Frontend</h2>
+          <h2 className="h2-center h2-tecno">Frontend</h2>
           <div className="cont_types">
           {iconObject.map((element, j) => {
               if (element.type == 'Frontend') {
@@ -22,7 +22,7 @@ export function Tecnologias({ iconObject }) {
             
           </section>
           <section className="cont_child-grid">
-          <h2 className="h2-center">Backend</h2>
+          <h2 className="h2-center h2-tecno1">Backend</h2>
           <div className="cont_types">
           {iconObject.map((element, j) => {
               if (element.type == 'Backend') {
@@ -38,7 +38,7 @@ export function Tecnologias({ iconObject }) {
             
           </section>
           <section className="cont_child-grid">
-          <h2 className="h2-center">Herramientas</h2>
+          <h2 className="h2-center h2-tecno2">Herramientas</h2>
           <div className="cont_types">
           {iconObject.map((element, j) => {
               if (element.type == 'Herramientas') {
@@ -54,7 +54,7 @@ export function Tecnologias({ iconObject }) {
             
           </section>
           <section className="cont_child-grid">
-          <h2 className="h2-center">Aprendiendo</h2>
+          <h2 className="h2-center h2-tecno3">Aprendiendo</h2>
           <div className="cont_types">
           {iconObject.map((element, j) => {
               if (element.type == 'Aprendiendo') {

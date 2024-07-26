@@ -4,13 +4,15 @@ export function Projects({projectObject}){
         <article className="cont_card-padre">
             {projectObject.map((element,j)=> {
                 return (
-                <section key={j} className="cards">
+                <section key={j} className={`cards ${j == 2 ? 'sportmoon' : null}`}>
                      <b className="etiqueta-project etiquetas">{element.type}</b>
                     <div className="cont_img_projects">
                        
-                        <img src={element.img} alt="" className="img-cards"/>
+                        <img src={element.img} alt=""className={` ${j == 2 ? 'img-sportmoon' : 'img-cards'}`}/>
                     </div>
+                    
                     <div className="cont_info-cards">
+                    {j == 2 ? <br/> : null}
                     <h3>{element.name}</h3>
                     <br />
                     <p>{element.description}</p>
