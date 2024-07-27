@@ -1,5 +1,8 @@
 /* eslint-disable no-useless-escape */
-
+import { GrFormNextLink } from "react-icons/gr";
+import { FaLinkedin } from "react-icons/fa";
+import { MdOutgoingMail } from "react-icons/md";
+import { IoIosPaper } from "react-icons/io";
 import './App.css';
 import { Projects } from './Components/Projects';
 import { Tecnologias } from './Components/Tecnologias';
@@ -11,11 +14,12 @@ export function App() {
   const iconObject = response.iconos;
   return (
     <>
-      <header className="cont_header-padre">
+      <header >
+        <nav className="cont_header-padre">
         <a href="#about">Sobre mi</a>
         <a href="#projects">Proyectos</a>
         <a href="#tecnologias">Tecnologias</a>
-        <a href="">Contacto</a>
+        </nav>
       </header>
       <article className="cont_app-padre">
         <section className="presentacion">
@@ -25,7 +29,7 @@ export function App() {
               alt="Abraham Alfonzo"
               className="yo_img"
             />
-            <a href="">Disponible para trabajar</a>
+            <a href="https://www.linkedin.com/in/abraham-alfonzo-611b392ba/">Disponible para trabajar</a>
           </div>
           <br />
           <h1 id="about">¡Hola, soy Abraham!</h1>
@@ -42,14 +46,11 @@ export function App() {
           </p>
           <br />
           <div>
-            <a href="" className="a-cards">
-              Contáctame
+            <a href="https://www.linkedin.com/in/abraham-alfonzo-611b392ba/" className="a-cards">
+            <FaLinkedin className="icon"/> LinkedIn
             </a>
             <a href="" className="a-cards">
-              LinkedIn
-            </a>
-            <a href="" className="a-cards">
-              Currículum
+            <IoIosPaper className="icon"/> Currículum
             </a>
           </div>
         </section>
@@ -65,17 +66,12 @@ export function App() {
           <div className='retrato_img'>
             <img src="https://img.freepik.com/psd-gratis/ilustracion-3d-avatar-o-perfil-humano_23-2150671142.jpg?size=338&ext=jpg" alt="" className='img-about'/>
           </div>
-          <a href=""  style={{'marginTop':'10px'}} className="a-cards">
-              Currículum
-            </a>
           </section>
         <section className="cont_proyectos-padre">
           <h2 id="projects">PROYECTOS</h2>
           <br />
           <p>
-            Mis proyectos más emocionantes y creativos.
-            <span className='span_verde'>
-             Cada proyecto es el
+            Mis proyectos más emocionantes y creativos. <span className='span_verde'> Cada proyecto es el
             resultado de mi dedicación y pasión por la programación.
             </span> ¡Descubre
             cómo transformo ideas en realidades digitales!
@@ -83,7 +79,8 @@ export function App() {
           <br />
           <Projects projectObject={projectObject} />
           <div className='cont_github'> 
-          <a href="" className='github'>Mi repositorio</a></div>
+          <a href="https://github.com/abram001X" className='github'>Mi repositorio <GrFormNextLink/>
+          </a></div>
         </section>
         <section className="cont_tecnoloias-padre">
           <h2 id="tecnologias">TECNOLOGiAS</h2>
@@ -95,13 +92,17 @@ export function App() {
           </p>
           <br />
           <Tecnologias iconObject={iconObject} />
-        </section><br /><br /><br />
-       
-          
+        </section><br />
+        <div className="cur">
+        <a href="correo"  style={{'marginTop':'5px'}} className="a-cards">
+        <MdOutgoingMail className="icon"/> Contratar
+        </a>  
+        </div>
+        
       </article>
       <footer className='cont_footer-padre'>
           <p>© 2024 AbrahamAlfonzo</p>
-          <a>Contacto</a>
+          <a href="abrahamalfonzo11@gmail.com" type="">Contacto</a>
         </footer>
     </>
   );

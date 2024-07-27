@@ -32,7 +32,7 @@
     },
     {
       "name": "GitHub",
-      "svg": "svg/github_git_icon_145985.svg",
+      "svg": "svg/github-dark.svg",
       "type": "Herramientas"
     },
     {
@@ -47,17 +47,17 @@
     },
     {
       "name": "Vite",
-      "svg": "svg/vite_logo_icon_249258.svg",
+      "svg": "svg/vitejs.svg",
       "type": "Herramientas"
     },
     {
       "name": "React Native",
-      "svg": "svg/react_icon_212902.svg",
+      "svg": "svg/react_original_logo_icon_146374.svg",
       "type": "Aprendiendo"
     },
     {
       "name": "AstroJs",
-      "svg": "svg/astro_logo_icon_247543.svg",
+      "svg": "svg/astro_dark.svg",
       "type": "Aprendiendo"
     },
     {
@@ -67,7 +67,7 @@
     },
     {
       "name": "Flask",
-      "svg": "svg/pocoo_flask_logo_icon_168045.svg",
+      "svg": "svg/flask-wordmark-dark.svg",
       "type": "Backend"
     },
     {

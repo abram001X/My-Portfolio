@@ -1,4 +1,7 @@
 /* eslint-disable react/prop-types */
+import { FaGithub } from "react-icons/fa";
+import { FiExternalLink } from "react-icons/fi";
+
 export function Projects({projectObject}){
     return(
         <article className="cont_card-padre">
@@ -22,8 +25,8 @@ export function Projects({projectObject}){
                     })}
                     </div>
                     <div className="cont_a_cards">
-                    <a href="" className="a-cards">Code</a>
-                    <a href="" className="a-cards">Preview</a>
+                    <a href={element.url_code} className="a-cards"> <FaGithub className="icon"/> Code</a>
+                   <a href="" className="a-cards">Preview <FiExternalLink className="icon"/> </a>
                     </div>
                     </div>
                 </section>)

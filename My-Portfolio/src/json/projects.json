@@ -4,6 +4,8 @@
       "name": "Book-Gallery",
       "img": null,
       "type": "Frontend",
+      "url_code" : "https://github.com/abram001X/Book-Gallery",
+      "url_page": "page",
       "description": "!Descubre una amplia variedad de libros en Book-Gallery, donde podrás explorar la información detallada de cada título¡",
       "tecnologia": ["React", "NodeJs", "ExpressJs","JavaScript"]
     },
@@ -11,12 +13,16 @@
       "name": "ConvertMoon",
       "type": "Fullstack",
       "img": "img/convertmoon.png",
+      "url_code":  "https://github.com/abram001X/ConvertVideo",
+      "url_page": "page",
       "description": "ConvertMoon es una página web que te permite convertir videos de YouTube para que puedas descargarlos.",
       "tecnologia": ["Python", "Flask", "HTML","Css"]
     },
     {
       "name": "SportMoon",
       "type": "Fullstack",
+      "url_code": "https://github.com/abram001X/SportsMoon",
+      "url_page": "page",
       "img": "img/Opera Instantánea_2024-07-24_150429_localhost.png",
       "description": "SportMoon es una página de fútbol, dedicado exclusivamente a todo lo relacionado con este deporte.",
       "tecnologia": ["React", "NodeJs", "ExpressJs","JavaScript"]
