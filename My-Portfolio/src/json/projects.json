@@ -2,7 +2,7 @@
   "project": [
     {
       "name": "Book-Gallery",
-      "img": null,
+      "img": "C:/Users/abrah/OneDrive/Escritorio/Programacion/PROYECTOS/Portfolio/My-Portfolio/img/convertmoon-link.png",
       "type": "Frontend",
       "url_code" : "https://github.com/abram001X/Book-Gallery",
       "url_page": "page",
@@ -12,7 +12,7 @@
     {
       "name": "ConvertMoon",
       "type": "Fullstack",
-      "img": "img/convertmoon.png",
+      "img": "C:/Users/abrah/OneDrive/Escritorio/Programacion/PROYECTOS/Portfolio/My-Portfolio/img/convertmoon.png",
       "url_code":  "https://github.com/abram001X/ConvertVideo",
       "url_page": "page",
       "description": "ConvertMoon es una página web que te permite convertir videos de YouTube para que puedas descargarlos.",
@@ -23,7 +23,7 @@
       "type": "Fullstack",
       "url_code": "https://github.com/abram001X/SportsMoon",
       "url_page": "page",
-      "img": "img/Opera Instantánea_2024-07-24_150429_localhost.png",
+      "img": "C:/Users/abrah/OneDrive/Escritorio/Programacion/PROYECTOS/Portfolio/My-Portfolio/img/Opera Instantánea_2024-07-24_150429_localhost.png",
       "description": "SportMoon es una página de fútbol, dedicado exclusivamente a todo lo relacionado con este deporte.",
       "tecnologia": ["React", "NodeJs", "ExpressJs","JavaScript"]
     }
