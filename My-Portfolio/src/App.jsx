@@ -94,7 +94,7 @@ export function App() {
           <Tecnologias iconObject={iconObject} />
         </section><br />
         <div className="cur">
-        <a href="correo"  style={{'marginTop':'5px'}} className="a-cards">
+        <a href="mailto:abrahamalfonzo11@gmail.com"  style={{'marginTop':'5px'}} className="a-cards">
         <MdOutgoingMail className="icon"/> Contratar
         </a>  
         </div>
@@ -102,7 +102,7 @@ export function App() {
       </article>
       <footer className='cont_footer-padre'>
           <p>© 2024 AbrahamAlfonzo</p>
-          <a href="abrahamalfonzo11@gmail.com" type="">Contacto</a>
+          <a href="https://www.linkedin.com/in/abraham-alfonzo-611b392ba/" type="">Contacto</a>
         </footer>
     </>
   );
