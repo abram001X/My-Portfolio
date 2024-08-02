@@ -13,7 +13,7 @@ export function Projects({projectObject}){
                        
                         <img src={element.img} alt=""className={` ${j == 2 ? 'img-sportmoon' : 'img-cards'}`}/>
                     </div>
-                    
+                   
                     <div className="cont_info-cards">
                     {j == 2 ? <br/> : null}
                     <h3>{element.name}</h3>
