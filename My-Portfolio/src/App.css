@@ -97,7 +97,9 @@ header{
   align-items: center;
 }
 .yo_img{
-  width: 80px;
+  width: 90px;
+  height: 100px;
+  object-fit: cover;
   border-radius: 50%;
   border: 1px solid var(--azul-claro);
 }
@@ -121,7 +123,6 @@ header{
   flex-direction: column;
   width: 300px;
   margin: 5px;
-  height: 380px;
   font-size: 15px;
   border-radius: 5px;
   background-color: var(--color-morado-oscuro);
@@ -132,6 +133,17 @@ header{
 .cards:hover .img-cards{
   width: 97%;
   height: 97%;
+}
+
+.img-cards{
+  object-fit: cover;
+  width: 250px;
+  height: 93%;
+  transition: .4s;
+  border-radius: 5px;
+  box-shadow: -7px 7px 11px 1px rgba(0,0,0,0.75);
+-webkit-box-shadow: -7px 7px 11px 1px rgba(0,0,0,0.75);
+-moz-box-shadow: -7px 7px 11px 1px rgba(0,0,0,0.75);
 }
 .cont_a_cards{
   padding: 15px 0px;
@@ -157,7 +169,18 @@ header{
 -webkit-box-shadow: -7px 7px 11px 1px rgba(0,0,0,0.75);
 -moz-box-shadow: -7px 7px 11px 1px rgba(0,0,0,0.75);
 }
-
+.cont_img_projects{
+  border: 1px solid var(--verde-oscuro);
+  border-radius: 5px;
+  width: 100%;
+  height: 180px;
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  justify-content: center;
+  background: linear-gradient(to bottom right, #003366 0%, #339933 100%);
+  padding: 10px;
+}
 .img-sportmoon:hover{
   height: 93%;
   width: 100%;
@@ -199,21 +222,7 @@ header{
 .cont_info-cards{
   padding: 0px 10px;
 }
-.cont_img_projects{
-  
-  border: 1px solid var(--verde-oscuro);
-  border-radius: 5px;
-  width: 100%;
-  height: 50%;
-  display: flex;
-  align-items: center;
-  padding: 5px;
-  justify-content: center;
-  
-  background: linear-gradient(to bottom right, #003366 0%, #339933 100%);
 
-  padding: 10px;
-}
 .github{
   font-size: 1em;
   display: flex;
@@ -230,16 +239,7 @@ header{
   align-items: center;
   justify-content: center;
 }
-.img-cards{
-  object-fit: cover;
-  width: 93%;
-  height: 93%;
-  transition: .4s;
-  border-radius: 5px;
-  box-shadow: -7px 7px 11px 1px rgba(0,0,0,0.75);
--webkit-box-shadow: -7px 7px 11px 1px rgba(0,0,0,0.75);
--moz-box-shadow: -7px 7px 11px 1px rgba(0,0,0,0.75);
-}
+
 
 
 /*Tecnologías*/
@@ -319,6 +319,8 @@ header{
 }
 .img-about{
   width: 160px;
+  height: 160px;
+  object-fit: cover;
   border-radius: 10px;
 }
 

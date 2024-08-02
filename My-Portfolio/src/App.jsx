@@ -25,7 +25,7 @@ export function App() {
         <section className="presentacion">
           <div className="cont_img">
             <img
-              src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Twemoji_1f600.svg/1200px-Twemoji_1f600.svg.png"
+              src="My-Portfolio\img\WhatsApp Image 2024-08-01 at 11.35.33 PM.jpeg"
               alt="Abraham Alfonzo"
               className="yo_img"
             />
@@ -64,7 +64,7 @@ export function App() {
             tecnologías que me permiten dar vida a mis ideas a través de la web.
           </p>
           <div className='retrato_img'>
-            <img src="https://img.freepik.com/psd-gratis/ilustracion-3d-avatar-o-perfil-humano_23-2150671142.jpg?size=338&ext=jpg" alt="" className='img-about'/>
+            <img src="My-Portfolio\img\WhatsApp Image 2024-08-01 at 11.35.07 PM (1).jpeg" alt="" className='img-about'/>
           </div>
           </section>
         <section className="cont_proyectos-padre">
