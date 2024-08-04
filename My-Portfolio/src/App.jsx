@@ -25,7 +25,7 @@ export function App() {
         <section className="presentacion">
           <div className="cont_img">
             <img
-              src="My-Portfolio\img\WhatsApp Image 2024-08-01 at 11.35.33 PM.jpeg"
+              src="https://github.com/abram001X/My-Portfolio/blob/main/My-Portfolio/img/WhatsApp%20Image%202024-08-01%20at%2011.35.33%20PM.jpeg?raw=true"
               alt="Abraham Alfonzo"
               className="yo_img"
             />
@@ -64,7 +64,7 @@ export function App() {
             tecnologías que me permiten dar vida a mis ideas a través de la web.
           </p>
           <div className='retrato_img'>
-            <img src="My-Portfolio\img\WhatsApp Image 2024-08-01 at 11.35.07 PM (1).jpeg" alt="" className='img-about'/>
+            <img src="https://github.com/abram001X/My-Portfolio/blob/main/My-Portfolio/img/WhatsApp%20Image%202024-08-01%20at%2011.35.07%20PM%20(1).jpeg?raw=true" alt="" className='img-about'/>
           </div>
           </section>
         <section className="cont_proyectos-padre">
