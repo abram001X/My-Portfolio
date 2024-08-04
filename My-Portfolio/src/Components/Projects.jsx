@@ -24,7 +24,7 @@ export function Projects({projectObject}){
                     </div>
                     <div className="cont_a_cards">
                     <a href={element.url_code} className="a-cards"> <FaGithub className="icon"/> Code</a>
-                   <a href="" className="a-cards">Preview <FiExternalLink className="icon"/> </a>
+                   <a href={element.url_page} className="a-cards">Preview <FiExternalLink className="icon"/> </a>
                     </div>
                     </div>
                 </section>)
