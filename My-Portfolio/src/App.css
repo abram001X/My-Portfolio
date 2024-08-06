@@ -158,7 +158,6 @@ header{
 .sportmoon .cont_img_projects{
   height: 100%;
   padding: 0;
-  width: 700px;
 }
 .img-sportmoon {
   height: 90%;
@@ -301,7 +300,7 @@ header{
   padding: 30px 0px ;
   
 }
-.cont_about-padre p{
+.p_about{
   width: 45ch;
   font-size: 1em;
 }
@@ -344,4 +343,78 @@ header{
 .icon{
   font-size: 1.2em;
   transform: translateY(3px);
+}
+@media screen and (max-width: 1150px) {
+  .p_about{
+    width: 25ch;
+  }
+}
+@media screen and (max-width: 870px) {
+  
+  .cont_app-padre{
+    width: 70%;
+  }
+  .p_about{
+    width: 35ch;
+  }
+}
+@media screen and (max-width: 750px) {
+  .cont_app-padre{
+    width: 90%;
+  }
+}
+@media screen and (max-width: 670px) {
+  .sportmoon{
+    width: 500px;
+  }
+  .p_about{
+    width: 30ch;
+  }
+}
+@media screen and (max-width: 550px) {
+  .sportmoon{
+    width: 300px;
+    flex-direction: column;
+    height: 100%;
+  }
+  
+}
+@media screen and (max-width: 530px) {
+  
+  body{
+    font-size: 1em;
+  }
+  .retrato_img{
+    width: 130px;
+  }
+}
+@media screen and (max-width: 405px) {
+  
+  body{
+    font-size: 1em;
+  }
+  .retrato_img{
+    width: 70px;
+    padding: 2px;
+  }
+}
+@media screen and (max-width: 335px) {
+  .cards, .sportmoon{
+    width: 250px;
+  }
+  .p_about{
+    width: 20ch;
+  }
+  .cont_header-padre{
+    width: 85%;
+    font-size: 15px;
+  }
+  .retrato_img{
+    width: 70px;
+    padding: 2px;
+    transform: none;
+  }
+  .cont_app-padre{
+    width: 100%;
+  }
 }

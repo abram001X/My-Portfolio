@@ -57,7 +57,7 @@ export function App() {
         <br />
         <section className='cont_about-padre'>
           <h2 style={{'padding':'10px 0px'}}>Sobre mí</h2>
-          <p>
+          <p className="p_about">
             Me llamo Abraham Alfonzo, <span className='span_verde'> actualmente estudiante de Ingeniería
             Informática.</span> <br />Desde que descubrí el mundo de la programación, he
             estado inmerso en el aprendizaje y la aplicación de diversas
@@ -77,7 +77,7 @@ export function App() {
             cómo transformo ideas en realidades digitales!
           </p>
           <br />
-          <Projects projectObject={projectObject} />
+          <Projects projectObject={projectObject} /><br />
           <div className='cont_github'> 
           <a href="https://github.com/abram001X" className='github'>Mi repositorio <GrFormNextLink/>
           </a></div>
