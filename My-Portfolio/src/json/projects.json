@@ -6,8 +6,8 @@
       "type": "Frontend",
       "url_code" : "https://github.com/abram001X/Book-Gallery",
       "url_page": "https://frontend-book-gallery.onrender.com",
-      "description": "!Descubre una amplia variedad de libros en Book-Gallery, donde podrás explorar la información detallada de cada título¡",
-      "tecnologia": ["React", "NodeJs", "ExpressJs","JavaScript"]
+      "description": "¡Descubre una amplia variedad de libros en Book-Gallery, donde podrás explorar la información detallada de cada título!",
+      "tecnologia": ["React", "NodeJs","Sql","JavaScript"]
     },
     {
       "name": "ConvertMoon",
@@ -25,7 +25,7 @@
       "url_page": "https://frontend-sportsmoon.onrender.com",
       "img": "https://github.com/abram001X/My-Portfolio/blob/main/My-Portfolio/img/Opera%20Instant%C3%A1nea_2024-07-24_150415_localhost.png?raw=true",
       "description": "SportMoon es una página de fútbol, dedicado exclusivamente a todo lo relacionado con este deporte.",
-      "tecnologia": ["React", "NodeJs", "ExpressJs","JavaScript"]
+      "tecnologia": ["React", "NodeJs", "ExpressJs","Sql"]
     }
   ]
 }
