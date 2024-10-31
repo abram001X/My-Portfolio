@@ -20,7 +20,7 @@
     },
     {
       "name": "E-commerce-fake",
-      "img": "../../img/e-commerce.png",
+      "img": "https://github.com/abram001X/My-Portfolio/blob/main/My-Portfolio/img/e-commerce.png?raw=true",
       "type": "FullStack",
       "url_code": "https://github.com/abram001X/E-commerce",
       "url_page": "https://ecommercefake.netlify.app/",
