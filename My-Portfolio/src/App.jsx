@@ -71,7 +71,7 @@ export function App() {
           <h2 id="projects">PROYECTOS</h2>
           <br />
           <p>
-            Mis proyectos más emocionantes y creativos. <span className='span_verde'> Cada proyecto es el
+            Algunos de mis proyectos más emocionantes y creativos. <span className='span_verde'> Cada proyecto es el
             resultado de mi dedicación y pasión por la programación.
             </span> ¡Descubre
             cómo transformo ideas en realidades digitales!
