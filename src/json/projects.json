@@ -5,14 +5,14 @@
       "type": "App movil",
       "url_code": "https://github.com/abram001X?tab=repositories",
       "url_page": "",
-      "img": "https://github.com/abram001X/My-Portfolio/blob/main/My-Portfolio/img/WhatsApp%20Image%202026-01-21%20at%201.58.36%20PM.jpeg?raw=true",
+      "img": "https://github.com/abram001X/My-Portfolio/blob/main/img/WhatsApp%20Image%202026-01-21%20at%201.58.36%20PM.jpeg?raw=true",
       "description": "Eardrum es una aplicación para reproducir música y audios, con funciones para descargar desde youtube.",
       "tecnologia": ["Kotlin", "Android","Android Studio"]
     },
     {
       "name": "ConvertMoonJs",
       "type": "Fullstack",
-      "img": "https://github.com/abram001X/My-Portfolio/blob/main/My-Portfolio/img/convertmoon-link.png?raw=true",
+      "img": "https://github.com/abram001X/My-Portfolio/blob/main/img/convertmoon-link.png?raw=true",
       "url_code": "https://github.com/abram001X/convertMoonJs",
       "url_page": "https://convert-moon.netlify.app",
       "description": "ConvertMoon es una página web que te permite convertir videos de YouTube para que puedas descargarlos.",
@@ -20,7 +20,7 @@
     },
     {
       "name": "E-commerce-fake",
-      "img": "https://github.com/abram001X/My-Portfolio/blob/main/My-Portfolio/img/e-commerce.png?raw=true",
+      "img": "https://github.com/abram001X/My-Portfolio/blob/main/img/e-commerce.png?raw=true",
       "type": "FullStack",
       "url_code": "https://github.com/abram001X/E-commerce",
       "url_page": "https://ecommercefake.netlify.app/",
